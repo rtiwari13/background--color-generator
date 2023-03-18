@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+main{
+    min-height: 100vh;
+    display :flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+}
+h1{
+    padding:4rem 2 rem;
+    background-color: #615c5c;
+    color: #efefef;
+    border-radius:1rem;
+}
+button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding:1rem 2rem;
+    font: size 1.5rem;
+    border-radius: 1rem;
+    border:#131111;
+    cursor:pointer;
+    margin-top: 1rem;
+    outline:none;
+    transition: background 0.4s;
+    outline-style: solid;
+}
+button:hover{
+    background: rgb(213, 216, 47);
+}
